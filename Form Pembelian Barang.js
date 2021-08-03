@@ -6,17 +6,17 @@ function proses(){
 
     // Proses
     switch(pilihan){
-        case "1":
+        case "monitor":
         var hm=2000000;
         document.getElementById("harga").value=hm;
         break;
 
-        case "2":
+        case "hardisk":
         var hv=3000000;
         document.getElementById("harga").value=hv;
         break;
 
-        case "3":
+        case "memory":
         var hc=5000000;
         document.getElementById("harga").value=hv;
         break;
